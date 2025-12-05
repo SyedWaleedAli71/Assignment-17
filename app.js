@@ -59,3 +59,14 @@
 // 
 
 //Q.7 
+// let city = prompt("Enter your City..");
+// let updateCity = city.replace = prompt("Enter your Current City..");
+
+// alert("Original City" + " " + city);
+// alert("Replace City " + " " + updateCity);
+// 
+// let city = "Hyderabad";
+// let updatedCity = city.replace("Hyder", "Islam");
+
+// document.writeln("Original: " + city + "<br>");
+// document.writeln("Updated: " + updatedCity);
