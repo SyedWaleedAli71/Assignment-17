@@ -70,3 +70,42 @@
 
 // document.writeln("Original: " + city + "<br>");
 // document.writeln("Updated: " + updatedCity);
+// 
+
+// Q.8
+// let message = "Ali and Sami are best friends. They play Cricket and Football";
+// let updateMess = message.replace(/and/g , "&");
+
+// console.log(updateMess);
+// 
+
+// Q.9
+// let str = "472";
+
+// let num = Number(str);
+
+// document.writeln("Value: " + num + "<br>");
+// document.writeln("Type of str: " + typeof str + "<br>");
+// document.writeln("Type of num: " + typeof num);
+// 
+
+// Q.10
+// let userInput = prompt("Enter Your Name..").toUpperCase();
+// console.log(userInput);
+// 
+
+// Q.11
+let userInput = prompt("Enter something");
+
+let lower = userInput.toLowerCase();
+
+let words = lower.split(" ");
+
+for (let i = 0; i < words.length; i++) {
+    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+}
+
+let titleCase = words.join(" ");
+
+document.write("User Input: " + userInput + "<br>");
+document.write("Title Case: " + titleCase);
