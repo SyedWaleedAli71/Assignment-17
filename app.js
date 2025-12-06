@@ -95,17 +95,29 @@
 // 
 
 // Q.11
-let userInput = prompt("Enter something");
+// let userInput = prompt("Enter something");
 
-let lower = userInput.toLowerCase();
+// let lower = userInput.toLowerCase();
 
-let words = lower.split(" ");
+// let words = lower.split(" ");
 
-for (let i = 0; i < words.length; i++) {
-    words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
-}
+// for (let i = 0; i < words.length; i++) {
+//     words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+// }
 
-let titleCase = words.join(" ");
+// let titleCase = words.join(" ");
 
-document.write("User Input: " + userInput + "<br>");
-document.write("Title Case: " + titleCase);
+// document.writeln("User Input: " + userInput + "<br>");
+// document.writeln("Title Case: " + titleCase);
+// 
+
+// Q.12
+// var num = 35.36;
+
+// var str = num.toString();
+
+// var result = str.replace(".", "");
+
+// document.writeln("Original Number: " + num + "<br>");
+// document.writeln("Result: " + result);
+// 
